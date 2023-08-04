@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JEHOSHUA_PRATAMA\\source\\repos\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj": {}
+    "C:\\Users\\JEHOSHUA_PRATAMA\\Documents\\GitHub\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JEHOSHUA_PRATAMA\\source\\repos\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj": {
+    "C:\\Users\\JEHOSHUA_PRATAMA\\Documents\\GitHub\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JEHOSHUA_PRATAMA\\source\\repos\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj",
+        "projectUniqueName": "C:\\Users\\JEHOSHUA_PRATAMA\\Documents\\GitHub\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj",
         "projectName": "SeleniumLearning",
-        "projectPath": "C:\\Users\\JEHOSHUA_PRATAMA\\source\\repos\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj",
+        "projectPath": "C:\\Users\\JEHOSHUA_PRATAMA\\Documents\\GitHub\\SeleniumLearning\\SeleniumLearning\\SeleniumLearning.csproj",
         "packagesPath": "C:\\Users\\JEHOSHUA_PRATAMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JEHOSHUA_PRATAMA\\source\\repos\\SeleniumLearning\\SeleniumLearning\\obj\\",
+        "outputPath": "C:\\Users\\JEHOSHUA_PRATAMA\\Documents\\GitHub\\SeleniumLearning\\SeleniumLearning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JEHOSHUA_PRATAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
@@ -55,6 +59,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.4.2, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.11.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
